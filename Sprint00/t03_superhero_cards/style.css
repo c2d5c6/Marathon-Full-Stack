@@ -1,0 +1,78 @@
+.list {
+    font-family: Verdana, serif;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+div {
+    position: relative;
+    float: left;
+}
+
+div.list_block{
+    width: 240px;
+    height: 140px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.block_0 {
+    background: rgb(69, 104, 220);
+    background: linear-gradient(180deg, rgba(69, 104, 220, 1) 0%, rgba(176, 106, 179, 1) 75%);
+}
+
+.block_1 {
+    background: rgb(229, 45, 39);
+    background: linear-gradient(180deg, rgba(229, 45, 39, 1) 0%, rgba(179, 18, 23, 1) 75%);
+}
+
+.block_2 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(97, 4, 95, 1) 75%);
+}
+
+.block_3 {
+    background: rgb(229, 45, 39);
+    background: linear-gradient(180deg, rgba(229, 45, 39, 1) 0%, rgba(0, 0, 0, 1) 110%);
+}
+
+.supername{
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+
+.realname {
+    font-size: 9px;
+    text-align: right;
+    font-weight: bold;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+img {
+    position: absolute;
+    height: 182px;
+}
+
+.png_0 {
+    margin-top: -32px;
+}
+
+.png_1 {
+    margin-top: -32px;
+}
+
+.png_2 {
+    margin-top: -30px;
+}
+
+.png_3 {
+    margin-top: -10px;
+}

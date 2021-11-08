@@ -1,0 +1,38 @@
+div {
+    position: relative;
+    float: left;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    color:white;
+    background-color: #3f95b5;
+    margin: 0px;
+}
+
+span {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    justify-content: space-around;
+}
+
+.list {
+    float:left;
+}
+
+.wt-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.wt-block:hover {
+    box-shadow: -1px 1px 11px 4px rgba(84, 84, 84, 0.35);
+}
+

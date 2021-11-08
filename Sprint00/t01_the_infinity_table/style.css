@@ -1,0 +1,95 @@
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+    
+}
+
+.tg td {
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-marvel {
+    background-color:#ffffff;
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center
+}
+
+.tg .tg-soul {
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center;
+    background: orange;
+}
+
+.tg .tg-time {
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center;
+    background: green;
+}
+
+
+.tg .tg-space {
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center;
+    background: blue;
+}
+
+
+.tg .tg-mind {
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center;
+    background: yellow;
+}
+
+
+.tg .tg-reality {
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center;
+    background: red;
+}
+
+.tg .tg-power {
+    border-color:#efefef;
+    text-align:center;
+    vertical-align:center;
+    background: purple;
+}
+
+
+.tg .tg-p0kf {
+    background-color:#000000;
+    border-color:#000000;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:top
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
