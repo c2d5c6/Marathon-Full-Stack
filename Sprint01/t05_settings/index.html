@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Settings</title>
+        <meta name="description" content="t05. Settings">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="settings">
+            <div class="name">
+                <h1>Settings</h1>
+            </div>
+            <div class="container">
+                <div class="border-color">
+                    <div class="block-set">
+                        <div class="block">
+                            <p>Typeface</p>
+                            <select id="input-font">
+                                <option value="Acunim-Pro">Acunim Pro</option>
+                                <option value="Comis-Sans">Comis Sans</option>
+                                <option value="Times-New-Roman" disabled>Times New Roman</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="block-set">
+                        <div class="block">
+                            <p style="position: absolute; padding: 40px 0 0 0;">Dark UI</p>
+                            <div class="block-light">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-set">
+                        <div class="block">
+                            <p>Weight</p>
+                            <div class="weight">
+                                <input type="radio" name="weight" value="regular" id="regular" checked>
+                                <label for="regular">Regular</label>
+                                <input type="radio" name="weight" value="bold" id="bold">
+                                <label for="regular">Bold</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-set">
+                        <div class="block">
+                            <p>Color</p>
+                            <div class="color-pick">
+                                <input class="checkbox" type="checkbox" name="blue" id="blue">
+                                <label class="color" for="blue"></label>
+                                <input class="checkbox" type="checkbox" name="green" id="green" checked>
+                                <label class="color" for="green"></label>
+                                <input class="checkbox" type="checkbox" name="pink" id="pink">
+                                <label class="color" for="pink"></label>
+                                <input class="checkbox" type="checkbox" name="yellow" id="yellow">
+                                <label class="color" for="yellow"></label>
+                                <input class="checkbox" type="checkbox" name="orange" id="orange" checked>
+                                <label class="color" for="orange"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-set">
+                        <div class="block">
+                            <p>Size</p>
+                            <input class="font-size" type="range" name="size" min="0" max="10" step="1" value="4">
+                        </div>
+                    </div>
+                </div>
+                <div class="block-icon">
+                    <div class="block-icone-four">
+                        <div class="border-1">
+                            <a href="#"><img src="assets/images/artistic-brush.png" alt="brush" class="icon"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/images/user-icon.png" alt="user" class="icon"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/images/sms-speech-bubble.png" alt="sms" class="icon"></a>
+                        </div>
+                        <div>
+                           <a href="#"><img src="assets/images/computer-screen.png" alt="computer" class="icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
