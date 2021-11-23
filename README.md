@@ -19,5 +19,5 @@ Ucode Marathon Full Stack
     <a href="https://nodejs.org" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="50" height="50"/>
     </a>
-    ![](https://visitor-badge.glitch.me/badge?page_id=pmarchenkoucode.marathon-full-stack)
 </p>
+![](https://visitor-badge.glitch.me/badge?page_id=pmarchenkoucode.marathon-full-stack)
