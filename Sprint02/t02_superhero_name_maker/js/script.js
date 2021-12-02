@@ -54,6 +54,8 @@ function superName() {
     (RegExp('^female$', 'i').test(maker.db[1]) && maker.db[2] >= 18 ? des = maker.description[3] :
     (RegExp('^$', 'i').test(maker.db[1]) && maker.db[2] < 18 ? des = maker.description[4] : des = maker.description[5]))))
     alert(`${maker.db[0]} - ${des}`)
+
+    console.log(maker)
 }
 
 superName()
