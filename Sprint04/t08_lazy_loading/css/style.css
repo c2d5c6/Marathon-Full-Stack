@@ -1,0 +1,23 @@
+.loading-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.check {
+    position: fixed;
+    right: 10px;
+    width: 200px;
+    height: 30px;
+    background: red;
+}
+
+img {
+    width: 70%;
+    padding-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}

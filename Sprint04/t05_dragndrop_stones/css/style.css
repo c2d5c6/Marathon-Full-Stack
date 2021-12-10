@@ -1,0 +1,45 @@
+#picture {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+#picture[value="off"] { border: 3px dashed rgb(250, 10, 10); }
+
+#picture:nth-child(1) {
+    float: left;
+    left: 2%;
+    top: 2%;
+    background: blue;
+}
+#picture:nth-child(2) {
+    left: 8%;
+    top: 2%;
+    background: orange;
+}
+#picture:nth-child(3) {
+    left: 2%;
+    top: 15%;
+    background: green;
+}
+#picture:nth-child(4) {
+    left: 8%;
+    top: 15%;
+    background: yellow;
+}
+#picture:nth-child(5) {
+    left: 5%;
+    top: 8%;
+    background: red;
+}
+#picture:nth-child(6) {
+    left: 5%;
+    top: 20%;
+    background: purple;
+}
