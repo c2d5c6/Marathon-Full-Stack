@@ -1,0 +1,101 @@
+html,
+body {
+    background: #f2f2f2;
+}
+
+.calc {
+    margin: 50px auto;
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    background: #f2f2f2;
+    color: #fff;
+    font-family: Arial;
+    padding: 18px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, .15),
+            -6px -6px 6px rgba(255, 255, 255, .5);
+}
+
+.calc-screen {
+    height: 125px;
+    padding: 10px;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    margin-bottom: 25px;
+}
+
+.calc-screen p {
+    text-align: right;
+    font-size: 4rem;
+    margin: 0;
+    color: gray;
+}
+
+.calc-screen .result {
+    width: 100%;
+    height: 40px;
+    font-size: 2rem;
+    text-align: right;
+    background-color: transparent;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+        "ac plus-minus percent division"
+        "seven eigth nine multi"
+        "four five six minus"
+        "one two three plus"
+        "zero zero dot equal";
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    color: gray;
+    background: #f2f2f2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0px -6px 10px rgba(255, 255, 255, 1),
+                0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn.zero {
+    grid-area: zero;
+    width: 100%;
+    border-radius: 34px;
+}
+
+.btn:hover {
+    box-shadow: -5px -10px 10px rgba(255, 255, 255, 1) 
+                0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn.bg-grey {
+    background: #a6a6a6;
+    box-shadow: 0px -6px 10px rgba(255, 255, 255, 1),
+                0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn.bg-orange {
+    background: #ff9501;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5),
+                -5px -10px 10px rgba(255, 255, 255, 1);
+}
