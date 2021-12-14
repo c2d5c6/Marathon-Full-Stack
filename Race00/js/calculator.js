@@ -60,7 +60,7 @@ class Calculator {
             case "÷":
                 result = prevItem / curItem;
                 break;
-            case "x":
+            case "*":
                 result = prevItem * curItem;
                 break;
             case "-":
