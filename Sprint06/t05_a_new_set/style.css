@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid grey;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+#result {
+    background: #afafaf;
+}
