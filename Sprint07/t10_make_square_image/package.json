@@ -1,0 +1,20 @@
+{
+    "dependencies": {
+      "express": "^4.17.1",
+      "init": "^0.1.2",
+      "node-fetch": "^2.6.1",
+      "path": "^0.12.7",
+      "request": "^2.88.2",
+      "sharp": "^0.28.3"
+    },
+    "name": "t10_make_square_image",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Marchenko Pavlo",
+    "license": "ISC",
+    "description": ""
+}

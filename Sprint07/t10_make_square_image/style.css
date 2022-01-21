@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-box{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#img1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    /* height: 600px; */
+}

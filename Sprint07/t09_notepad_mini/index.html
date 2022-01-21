@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Marchenko Pavlo, UCode">
+        <meta name="author" content="Marchenko Pavlo">
+        <meta name="description" content="t09. Notepad mini">
+        <title>t09. Notepad mini</title>
+        <style>
+            .container {
+                display: block;
+                padding: 10px;
+                border: 1px solid grey;
+                margin-bottom: 10px;
+            }
+            .row {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .hide {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Notepad mini</h1>
+        <div class="container">
+            <form action="/" method="post">
+                <div class="row">
+                    <input type="text" name="filename" required placeholder="Name">
+                </div>
+                <div class="row">
+                    <select name="importance">
+                        <option selected value="low">low</option>
+                        <option value="medium">medium</option>
+                        <option value="high">high</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Content</label>
+                    <textarea rows="15" cols="100" name="content" required></textarea>
+                </div>
+                <button type="submit">Create</button>
+            </form>
+        </div>
+        <div class="container" id="list"></div>
+        <div class="container" id="content">
+            #CONTENT#
+        </div>
+        <script src="/js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Marchenko Pavlo, UCode">
+        <meta name="author" content="Marchenko Pavlo">
+        <meta name="description" content="t08. WhoisWho">
+        <title>WhoisWho</title>
+        <style>
+            table {
+                border-spacing: initial;
+            }
+            #content {
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <h1>Parsing CSV data</h1>
+    <div>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <button type="submit">Upload</button>
+            <a href="/filter">Сброс фильтров</a>
+        </form>
+        <div id="content">#TEXT#</div>
+    </div>
+    <script src="js/script.js"></script>
+</html>

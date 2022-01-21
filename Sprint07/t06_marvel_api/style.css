@@ -1,0 +1,23 @@
+.wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.box .box {
+    width: auto;
+}
+
+.key {
+    color: #9f000e;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Marchenko Pavlo, UCode">
+        <meta name="author" content="Marchenko Pavlo">
+        <meta name="description" content="t03. Files">
+        <title>Files</title>
+        <style>
+            .container {
+                display: block;
+                padding: 10px;
+                border: 1px solid grey;
+                margin-bottom: 10px;
+            }
+            .row {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .hide {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Files Manager</h1>
+        <div class="container">
+            <h3>Create a file</h3>
+            <form action="/" method="POST">
+                <div class="row">
+                    <label>Filename</label>
+                    <input type="text" name="filename" required>
+                </div>
+                <div class="row">
+                    <label>Content</label>
+                    <textarea name="content" cols="100" rows="15" required></textarea>
+                </div>
+                <button type="submit">Create file</button>
+            </form>
+        </div>
+        <div class="container" id="list"></div>
+        <div class="container" id="content"></div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

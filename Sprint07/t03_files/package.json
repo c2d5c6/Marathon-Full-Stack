@@ -1,0 +1,18 @@
+{
+  "name": "t03_files",
+  "version": "1.0.0",
+  "description": "Work with files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "forms",
+    "files"
+  ],
+  "author": "Marchenko Pavlo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

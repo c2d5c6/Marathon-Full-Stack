@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Session</title>
+        <meta name="description" content="t00. Session foe new">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            form {
+                border: 2px solid gray;
+                padding: 20px 20px 20px 20px;
+            }
+            button{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Session for new</h1>
+        <form id="form" action="/login" method="POST">
+            <fieldset>
+                <legend>About HERO</legend>
+                <div>
+                    <label for="name">Real Name</label>
+                    <input type="text" id="name" name="name" placeholder="Superhero real name" size="18" autofocus required/>
+                    <label for="alias">Superhero Name</label>
+                    <input type="text" id="alias" name="alias" placeholder="Superhero alias" size="18" required/>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="1" max="999" step="1" size="5" required/>
+                    <br>
+                    <br>
+                    <label for="text">About</label>
+                    <textarea id="text" name="text" cols="70" rows="5" maxlength="500" placeholder="Information about the superhero, max 500 symbols" required></textarea>
+                    <br>
+                    <br>
+                    <label for="photo">Photo:</label>
+                    <input type="file" id="photo" name="photo" required> 
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Powers</legend>
+                <p>
+                    <input type="checkbox" id="pw_expirience" value="1" name="Telekinesis">
+                    <label for="pw_expirience">Telekinesis</label>
+                    <input type="checkbox" id="pw_expirience" name="Super">
+                    <label for="pw_expirience">Super strength or speed</label>
+                    <input type="checkbox" id="pw_expirience" name="Shapeshifting">
+                    <label for="pw_expirience">Shapeshifting</label>
+                    <input type="checkbox" id="pw_expirience" name="Flight">
+                    <label for="pw_expirience">Flight</label>
+                    <input type="checkbox" id="pw_expirience" name="Elemental">
+                    <label for="pw_expirience">Elemental control</label>
+                    <input type="checkbox" id="pw_expirience" name="Other">
+                    <label for="pw_expirience">Other</label>
+                    <br>
+                    <p>
+                        <label for="volume">Level of control</label>
+                        <input type="range" id="volume" name="volume" min="0" max="10" step="1" value="1" required>
+                    </p>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Publicity</legend>
+                <p>
+                    <input type="radio" id="pub_unknownChoice" value="0" name="purpose">
+                    <label for="pub_unknownChoice">UNKNOWN</label>
+
+                    <input type="radio" id="pub_freakChoice" value="1" name="purpose">
+                    <label for="pub_freakChoice">LIKE A GHOST</label>
+
+                    <input type="radio" id="pub_chosenChoice" value="2" name="purpose">
+                    <label for="pub_chosenChoice">I AM IN COMICS</label>
+
+                    <input type="radio" id="pub_isNotHumanChoice" value="3" name="purpose">
+                    <label for="pub_isNotHumanChoice">I HAVE FUN CLUB</label>
+
+                    <input type="radio" id="pub_otherChoice" value="4" name="purpose">
+                    <label for="pub_otherChoice">SUPERSTAR</label>
+                </p>
+            </fieldset><br>
+                <button id="reset">CLEAR</button>
+                <button id="submit">SEND</button>
+        </form>
+    </body>
+</html>
